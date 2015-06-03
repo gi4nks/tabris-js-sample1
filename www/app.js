@@ -1,7 +1,7 @@
 var page = tabris.create("Page", {
   title: "Hello, World!",
   topLevel: true,
-  background: grey
+  background: "grey"
 });
  
 var textView = tabris.create("TextView", {
