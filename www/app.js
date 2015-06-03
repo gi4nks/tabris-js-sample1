@@ -1,13 +1,13 @@
 var page = tabris.create("Page", {
   title: "Hello, World!",
-  topLevel: true,
-  background: "grey"
+  topLevel: true
 });
  
 var textView = tabris.create("TextView", {
-  font: "24px",
+  font: "18px",
   layoutData: {centerX: 0, top: 100},
-  text: "Hello World"
+  text: "Hello World",
+  background: "grey"
 }).appendTo(page);
  
 page.open();
