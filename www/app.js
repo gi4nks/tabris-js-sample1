@@ -7,7 +7,8 @@ var textView = tabris.create("TextView", {
   font: "18px",
   layoutData: {centerX: 0, top: 100},
   text: "Hello World",
-  background: "grey"
+  background: "red",
+  text-color: "green"
 }).appendTo(page);
  
 page.open();
